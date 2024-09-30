@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app{
+  color: red;
+  width: 200px;
+  height: 200px;
+background-color: #61dafb;
+font-size: 2rem;
+text-align: centers;
+margin: 10rem;
+transition: transform ease-in 1s;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.app2{
+  width: 170px;
+  height: 170px;
+  transition: transform ease-in 1s;
+  background-color: #1e4ab7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app3{
+  width: 140px;
+  height: 140px;
+  transition: transform ease-in 1s;
+  background-color: #230159;
+  display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.app4{
+  width: 110px;
+  height: 110px;
+  transition: transform ease-in 1s;
+  background-color: #980b96;
+  display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.app5{
+  width: 80px;
+  height: 80px;
+  transition: transform ease-in 1s;
+  background-color: #5b0414;
+  display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.app:hover{
+  transform: rotate(360deg);
+}
+
+.app2:hover{
+  transform: rotate(360deg);
+}
+
+.app3:hover{
+  transform: rotate(360deg);
+}
+.app4:hover{
+  transform: rotate(360deg);
+}
+.app5:hover{
+  transform: rotate(360deg);
+}
+
+.custom-radio{
+   height: 20px;
+   width: 20px;
+   cursor: pointer;
+   appearance: none;
+ 
+   outline: none;
+   color: yellow;
+  
+   border-radius: 50%;
+}
+
+.custom-radio:checked{
+  border: 4px solid hsl(251, 81%, 29%);
+}
+
+.bg-1{
+  background: #c7923bd3;
+}
+
+.bg-2{
+  background: #be383c;
+}
+
+.bg-3{
+  background:#d84099;
+}
+
+
